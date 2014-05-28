@@ -1,6 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  a(class="btn btn-default" role="button" href="/testing") testing
+    h1= title
+    p Welcome to #{title}
+    p Temperature is set to #{temp}
+    p State is set to #{state}
+
+    a(class="btn btn-default" role="button" href="/testing") testing

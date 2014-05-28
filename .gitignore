@@ -59,3 +59,5 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+.idea
